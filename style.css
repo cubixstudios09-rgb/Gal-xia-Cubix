@@ -3,7 +3,7 @@ body {
     overflow: hidden;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url("https://cubixstudios09-rgb.github.io/Gal-xia-Cubix/imagens/estacao.png");
+    background-image: url("/Gal-xia-Cubix/imagens/estacao.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
