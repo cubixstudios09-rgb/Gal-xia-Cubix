@@ -44,3 +44,10 @@ h1 {
     transform: scale(1.1);
     box-shadow: 0 0 25px #00ffff;
 }
+.teste-imagem {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
