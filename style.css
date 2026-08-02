@@ -1,17 +1,54 @@
 body {
     margin: 0;
-    background: #050510;
+    background-color: #050510;
     color: white;
     font-family: Arial, sans-serif;
 }
 
-h1 {
+.espaco {
     text-align: center;
-    margin-top: 100px;
-    font-size: 60px;
 }
 
-p {
-    text-align: center;
-    color: #6ca8ff;
+h1 {
+    margin-top: 40px;
+}
+
+.janela {
+    width: 800px;
+    height: 250px;
+    margin: 40px auto;
+    border: 3px solid #3b82f6;
+    border-radius: 20px;
+    background: #111827;
+    line-height: 250px;
+    font-size: 40px;
+}
+
+.mesa {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 3px solid #2563eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.planeta {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.planeta:hover {
+    transform: scale(1.2);
 }
