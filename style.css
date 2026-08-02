@@ -3,6 +3,8 @@ body {
     overflow: hidden;
     font-family: Arial, sans-serif;
     color: white;
+    position: relative;
+    z-index: 1;
 }
 
 body::before {
@@ -13,13 +15,15 @@ body::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 0;
 }
 
 h1 {
     text-align: center;
     margin-top: 40px;
     text-shadow: 0 0 20px #00ffff;
+    position: relative;
+    z-index: 2;
 }
 
 .mesa {
@@ -29,6 +33,7 @@ h1 {
     transform: translateX(-50%);
     display: flex;
     gap: 20px;
+    z-index: 2;
 }
 
 .planeta {
